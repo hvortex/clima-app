@@ -130,7 +130,7 @@ def info():
     imagem = imagem.resize((130, 130), Image.LANCZOS)
     imagem = ImageTk.PhotoImage(imagem)
     l_icon1 = Label(frame_quadros, image=imagem, compound=LEFT, bg=fundo, fg="white", font=('Ivy 10 bold'), anchor="nw", relief=FLAT)
-    l_icon1.place(x=170, y=50)
+    l_icon1.place(x=190, y=50)
 
     # -- Mudando cor do fundo
     janela.configure(bg=fundo)
